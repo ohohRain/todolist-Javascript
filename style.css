@@ -1,0 +1,127 @@
+
+body{
+    background-color: rgba(144, 185, 97, 0.26);
+}
+
+
+.container{
+    margin: auto auto auto auto;
+    top:50%;
+    width:400px;
+    padding:200px;
+}
+
+.add{
+    position: relative;
+    width: 380px;
+    height:40px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+}
+.add i{
+    position: absolute;
+    font-size: 40px;
+    color: #6eb200;
+}
+
+.add input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+
+.content{
+    width:400px;
+    height: 500px;
+    background-color:white;
+    overflow: auto;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+.todos{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.complete{
+    position: absolute;
+    padding-left:3px;
+    left:15px;
+    top:10px;
+    font-size: 24px;
+}
+
+.fa-check-circle{
+    color:#6eb200;
+}
+.todos p.text{
+    position: absolute;
+    max-width:285px;
+    padding:0;
+    margin:0px;
+    font-size: 22px;
+    left:50px;
+    top:10px;
+    
+    
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : rgb(175, 174, 174);
+}
+.delete{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.delete:hover{
+    color:#e5e90f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
